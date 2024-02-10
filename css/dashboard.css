@@ -171,6 +171,14 @@ main {
     flex-direction: row-reverse;
 }
 
+.one .last-footer :nth-child(1) {
+    padding: 1% 2%;
+}
+
+.one .last-footer :nth-child(2) {
+    padding: 1% 2%;
+}
+
 /*Footer*/
 footer {
     color: gray;
