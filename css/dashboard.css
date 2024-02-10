@@ -79,7 +79,7 @@ main {
 }
 
 .header-content span {
-    color: rgb(170, 5, 101);
+    color: rgb(238, 200, 32);
     font-weight: bolder;
 }
 
@@ -99,14 +99,14 @@ main {
     justify-content: space-evenly;
     flex-direction: row;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 2rem;
     flex-wrap: wrap;
 }
 
 .header-section .one {
     width: 40%;
     height: 30vh;
-    background-color: rgb(65, 27, 68);
+    background-color: rgb(238, 200, 32);
     border-radius: 10px;
 }
 
@@ -131,7 +131,7 @@ main {
 }
 
 .text h4 {
-    color: rgb(170, 5, 101);
+    color: rgb(238, 200, 32);
 }
 
 .one footer {
@@ -139,6 +139,7 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 5%;
+
 }
 
 .one footer :nth-child(1) {
@@ -146,7 +147,8 @@ main {
     border-radius: 100px;
     font-weight: bolder;
     color: white;
-    background: linear-gradient(to right, rgb(92, 3, 92), rgb(151, 18, 80));
+    /* background: linear-gradient(to right, rgb(92, 3, 92), rgb(151, 18, 80)); */
+    background-color: blue;
     border: 0px;
 }
 
@@ -161,7 +163,7 @@ main {
 
 .header-section :nth-child(3) {
     width: 85%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .one .last-footer {
