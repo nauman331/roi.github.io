@@ -92,6 +92,7 @@ main .top-section {
 main .top-content {
     color: white;
     text-align: center;
+    width: 80%;
 }
 
 .top-content button {
