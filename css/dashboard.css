@@ -106,7 +106,7 @@ main {
 .header-section .one {
     width: 40%;
     height: 30vh;
-    background-color: rgb(238, 200, 32);
+    background-color: #212121;
     border-radius: 10px;
 }
 
@@ -119,12 +119,17 @@ main {
     padding: 0 1rem;
     background-color: #212121;
     border-radius: 10px 10px 0 0;
+    background-image: url(../images/bg1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .one header figure img {
     height: 10vh;
     width: 5vw;
 }
+
 
 .text h1 {
     color: white;
@@ -164,6 +169,14 @@ main {
 .header-section :nth-child(3) {
     width: 85%;
     margin-top: 2%;
+}
+
+.header-section :nth-child(3) header {
+    background-image: url(../images/bg2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
 }
 
 .one .last-footer {
@@ -212,8 +225,20 @@ footer {
         margin: 5% 0px;
     }
 
+    .one footer {
+        padding: 1% 5%;
+    }
+
     .one header figure img {
         height: 10vh;
         width: 15vw;
+    }
+
+    .one .last-footer :nth-child(1) {
+        padding: 2% 4%;
+    }
+
+    .one .last-footer :nth-child(2) {
+        padding: 2% 4%;
     }
 }
